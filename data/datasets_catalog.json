@@ -1,0 +1,74 @@
+[
+  {
+    "name": "DocRED",
+    "task": "Document-level Relation Extraction",
+    "language": "English",
+    "license_or_access": "Public for research",
+    "link": "https://github.com/thunlp/DocRED",
+    "research_value": "适合研究跨句关系抽取与长上下文提示工程"
+  },
+  {
+    "name": "SciERC",
+    "task": "Scientific NER + Relation Extraction",
+    "language": "English",
+    "license_or_access": "Public",
+    "link": "https://allenai.org/data/scierc",
+    "research_value": "适合做领域适配提示（学术文本）"
+  },
+  {
+    "name": "ACE2005",
+    "task": "Entity/Relation/Event Extraction",
+    "language": "English",
+    "license_or_access": "LDC licensed",
+    "link": "https://catalog.ldc.upenn.edu/LDC2006T06",
+    "research_value": "经典综合 IE 基准，适合多任务统一 JSON 输出"
+  },
+  {
+    "name": "CoNLL-2003",
+    "task": "Named Entity Recognition",
+    "language": "English",
+    "license_or_access": "Public",
+    "link": "https://www.clips.uantwerpen.be/conll2003/ner/",
+    "research_value": "NER 入门基线，便于对比提示模板效果"
+  },
+  {
+    "name": "DuIE 2.0",
+    "task": "Chinese Relation Extraction",
+    "language": "Chinese",
+    "license_or_access": "Public",
+    "link": "https://aistudio.baidu.com/aistudio/competition/detail/46",
+    "research_value": "中文关系抽取主流数据集，适合中文提示工程研究"
+  },
+  {
+    "name": "People's Daily NER",
+    "task": "Chinese NER",
+    "language": "Chinese",
+    "license_or_access": "Community mirrors",
+    "link": "https://github.com/OYE93/Chinese-NLP-Corpus",
+    "research_value": "中文实体抽取基础数据，便于构造结构化 JSON 标签"
+  },
+  {
+    "name": "MIT Movie",
+    "task": "Slot Filling / Intent",
+    "language": "English",
+    "license_or_access": "Public",
+    "link": "https://groups.csail.mit.edu/sls/downloads/movie/",
+    "research_value": "适合研究口语场景信息抽取与 JSON 槽位填充"
+  },
+  {
+    "name": "MIT Restaurant",
+    "task": "Slot Filling / Intent",
+    "language": "English",
+    "license_or_access": "Public",
+    "link": "https://groups.csail.mit.edu/sls/downloads/restaurant/",
+    "research_value": "与 Movie 形成跨领域迁移评估"
+  },
+  {
+    "name": "SQuAD 2.0",
+    "task": "Question Answering (adaptable to IE)",
+    "language": "English",
+    "license_or_access": "Public",
+    "link": "https://rajpurkar.github.io/SQuAD-explorer/",
+    "research_value": "可将答案映射为字段，研究问答到结构化输出"
+  }
+]
